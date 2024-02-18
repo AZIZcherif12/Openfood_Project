@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>openfood</groupId>
+    <artifactId>openfood</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>openfood</name>
+    
+    <dependencies>
+        <!-- MongoDB Driver -->
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>4.11.1</version>
+        </dependency>
+        <!-- MySQL Connector/J -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version>
+        </dependency>    
+        <dependency>
+             <groupId>org.slf4j</groupId>
+             <artifactId>slf4j-api</artifactId>
+             <version>1.7.32</version>
+        </dependency>
+ 		<dependency>
+   			 <groupId>ch.qos.logback</groupId>
+    		 <artifactId>logback-classic</artifactId>
+   			 <version>1.2.6</version>
+		</dependency>
+
+ 		<dependency>
+ 			<groupId>titanic</groupId>
+ 			<artifactId>titanic</artifactId>
+ 			<version>0.0.1-SNAPSHOT</version>
+ 		</dependency>
+    </dependencies>
+    
+</project>
